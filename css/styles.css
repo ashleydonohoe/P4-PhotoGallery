@@ -1,5 +1,29 @@
-html {
+html,
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: aliceblue;
+}
+
+.container {
+    max-width: 1200px;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    margin: 0 auto;
+    padding: 3% 5%;
+}
+
+img {
+    width: 20%;
+    margin: 2%;
+    height: auto;
+}
+
+#search {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    font-size: 16pt;
+    height: 2em;
 }
