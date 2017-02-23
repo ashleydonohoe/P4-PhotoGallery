@@ -27,3 +27,29 @@ img {
     font-size: 16pt;
     height: 2em;
 }
+
+
+.no-results {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+
+    .container {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+
+    }
+    img {
+        margin: 2% auto;
+        width: 100%;
+    }
+
+    #search {
+        width: 100%;
+    }
+}
